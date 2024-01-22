@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;400;800&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 40px;
+  background-color: #222222;
+  color: #fefefe;
+  letter-spacing: 0.1em;
+  font-size: 1.125rem;
+}
+
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3rem;
+  color: #FFD700;
+  text-align: center;
+}
+p.main {
+  text-align: center;
+  margin: 10px;
+}
+p span {
+  font-size: 1.75rem;
+  vertical-align: middle;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  max-width: 1200px;
+  margin: 50px auto 0px;
+}
+
+.card {
+  color: black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  flex: 1 350px;
+  height: 350px;
+  max-width: 350px;
+  border-radius: 50%;
+  text-align: center;
+}
+.card p {
+  position: relative;
+  z-index: 2;
+}
+.card .overlay {
+  background: linear-gradient(55deg, #fff8,#fff5, #fffa, #fff5, #fff8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+}
