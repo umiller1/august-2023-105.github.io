@@ -1,0 +1,26 @@
+#pg {
+    font-family: cursive;
+    text-align: center;
+}
+
+#pgc-1 {
+    background-color: #ffc800;
+    color: #222;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#pgc-2 {
+    background-color: #fd8b7c;
+    color: #222;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#pgc-3 {
+    background-color: #c0564b;
+    color: #222;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
