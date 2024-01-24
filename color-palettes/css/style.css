@@ -24,3 +24,74 @@
     text-align: center;
     padding: 24px;
 }
+
+/* Below is the CSS used to create the advanced layouts */
+section {
+    max-width: 800px;
+    margin: 0px auto 50px;
+    display: flex;
+    gap: 25px;
+}
+section div {
+    flex: 1;
+    border-radius: 35px;
+}
+
+#dw {
+    font-family: fantasy;
+    text-align: center;
+}
+
+#dwc-1 {
+    background-color: #9eff00;
+    color: #222;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px;
+}
+#dwc-2 {
+    background-color: #ff8b66;
+    color: #222;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px;
+}
+#dwc-3 {
+    background-color: #00dbff;
+    color: #222;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px;
+}
+
+#bp {
+    font-family: monospace;
+    text-align: center;
+}
+
+#bpc-1 {
+    background-color: #ff0071;
+    color: #222;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+#bpc-2 {
+    background-color: #ff002b;
+    color: #222;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+#bpc-3 {
+    background-color: #e197a4;
+    color: #222;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+hr {
+    border: none;
+    border-bottom: 5px dashed #111;
+    margin-top: 55px;
+}
