@@ -65,3 +65,12 @@ main {
   z-index: 1;
   border-radius: 50%;
 }
+
+.priority {
+  display: block;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2rem;
+  color: red;
+  text-align: center;
+  text-decoration: underline;
+}
