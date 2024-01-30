@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Playfair+Display&display=swap');
 /*
     NOTE TO STUDENTS: 
 
@@ -6,3 +7,121 @@
 
     Good luck, and have fun!
 */
+#license {
+    width: 700px;
+    border: 2px solid black;
+    padding: 24px;
+    border-radius: 24px;
+    box-shadow: 8px 8px 6px #0006;
+    background: linear-gradient(55deg, 
+        lavenderblush, 
+        lavender, 
+        lightpink, 
+        pink, 
+        lightcoral, 
+        coral
+    );
+}
+
+h1 {
+    color: navy;
+    font-size: 60px;
+    margin: 0px;
+}
+
+h4 {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin: 0px;
+    padding: 8px;
+}
+
+#left-side,
+#right-side {
+    display: inline-block;
+}
+
+#left-side {
+    width: 65%;
+}
+#right-side {
+    width: 34%;
+}
+
+#id-and-expiration div {
+    display: inline-block;
+    color: navy;
+    margin: 8px;
+}
+
+#id-and-expiration span {
+    color: #9900ff;
+    font-weight: bold;
+}
+
+#address {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 9px;
+}
+
+#data-fields, #small-pic {
+    display: inline-block;
+}
+
+#small-pic img {
+    width: 90px;
+    opacity: 0.5;
+}
+
+#data-left, #data-right {
+    display: inline-block;
+    color: navy;
+    margin: 8px;
+}
+
+#data-left span, #data-right span {
+    color: #9900ff;
+    font-weight: bold;
+}
+
+#signature {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Ms Madi', cursive;
+}
+
+#right-side img {
+    width: 100%;
+}
+
+#donor-and-real-id {
+    padding: 4px;
+    text-align: center;
+}
+
+#donor-and-real-id div {
+    display: inline-block;
+    text-align: right;
+}
+
+#donor {
+    color: #9900ff;
+    font-weight: bold;
+    padding-right: 24px;
+}
+
+#real-id {
+    display: inline-block;
+    background-color: gold;
+    font-size: 24px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 50%;
+}
+#real-id i {
+    color: white;
+}
