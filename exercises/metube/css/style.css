@@ -75,6 +75,20 @@ body {
     aspect-ratio: 16 / 9;
 }
 
+#m1 .thumbnail {
+    background-image: url(../images/animal.avif);
+    background-size: cover;
+}
+#m2 .thumbnail {
+    background-image: url(../images/land.jpg);
+    background-size: cover;
+}
+#m3 .thumbnail {
+    background-image: url(../images/mountain-goat.jpg);
+    background-size: cover;
+}
+
+
 .metube-item h4 {
     margin: 8px;
 }
