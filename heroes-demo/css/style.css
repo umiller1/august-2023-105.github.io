@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url(../images/lizard.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#hero-1 h1 {
+    font-size: 15vw;
+    padding: 10vw;
+}
+
+#hero-2 {
+    background-image: url(../images/lonely-ocean.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#hero-2 h2 {
+    font-size: 8vw;
+    margin: 0px 5vw 5vh 0px;
+}
+#hero-2 h3 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+#hero-2 a, #hero-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+.spacer {
+    height: 50vh;
+    background-image: url(../images/emerald-seas.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#hero-3 {
+    background-image: url(../images/orange-wildflowers.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#hero-3 .hero-content {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+#hero-3 h2 {
+    font-size: 8vw;
+    margin: 0px 5vw 5vh 0px;
+}
+#hero-3 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+
+#hero-4 {
+    background-image: url(../images/stars-on-velvet.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-4 .hero-content {
+    color: white;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+#hero-4 h2 {
+    font-size: 8vw;
+    margin: 0px 5vw 5vh 0px;
+}
+#hero-4 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+#hero-4 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
