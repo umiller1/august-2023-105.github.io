@@ -26,3 +26,69 @@ h1, h2 {
 p, li, a {
     font-size: 1.125rem;
 }
+.btn {
+    border: 1px solid #00BDD7;
+    border-radius: 7px;
+    color: #00BDD7;
+    display: inline-block;
+    padding: 10px 25px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.btn:hover {
+    background-color: #00BDD7;
+    color: #eee;
+}
+
+#header { 
+    height: 100vh;
+    background-image: url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.nav img {
+    width: 350px;
+}
+.nav div {
+    display: flex;
+    gap: 25px;
+}
+.nav div a {
+    color: #111;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.nav div a:hover {
+    color: #00BDD7;
+    text-decoration: underline;
+}
+
+.hero-content {
+    max-width: 400px;
+    margin: 20% auto 0px;
+    text-align: center;
+}
+
+.hero-content p {
+    margin: 10px 0px 20px;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+}
+.hero-content h1 span {
+    color: #00BDD7;
+}
