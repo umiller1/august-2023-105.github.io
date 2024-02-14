@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Staatliches&display=swap');
+/* General Resets */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+h1, h2 {
+    font-family: "Staatliches", sans-serif;
+}
+p, li, a {
+    font-size: 1.125rem;
+}
