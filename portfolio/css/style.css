@@ -5,6 +5,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: "Inter", sans-serif;
     font-weight: 300;
@@ -45,9 +48,13 @@ p, li, a {
     background-color: #444;
     color: white;
 }
-.btn.alt:hover {
+.btn.alt:hover, #about .btn {
     background-color: #00BDD7;
     border-color: #00BDD7;
+}
+#about .btn:hover {
+    background-color: transparent;
+    color: #00BDD7;
 }
 
 #header { 
@@ -199,7 +206,7 @@ h2 {
 }
 
 #s2 {
-    margin-top: 50px;
+    margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
@@ -268,4 +275,45 @@ h2 {
 #c6 {
     background-image: url(../images/p6.jpg);
     background-size: cover;
+}
+
+#about {
+    display: flex;
+    max-height: 500px;
+}
+
+#about .container {
+    width: 90%;
+    max-width: 500px;
+    margin: 0px auto 0px 0px;
+    padding-left: 40px;
+}
+
+.img-contain, .content {
+    flex: 1;
+}
+
+#about .content {
+    background-color: #444;
+    color: #eee;
+    padding: 25px 0px;
+    display: flex;
+    align-items: center;
+}
+
+#about p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#footer {
+    text-align: center;
+    padding: 30px 0px;
+}
+#footer a {
+    text-decoration: underline;
+    color: #00BDD7;
+}
+#footer p:first-child {
+    margin-bottom: 25px;
 }
