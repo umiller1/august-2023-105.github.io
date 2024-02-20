@@ -7,5 +7,4 @@ $(document).ready(function(){
       var new_color = colors[Math.floor(Math.random()*colors.length)];
       $(this).css('background-color',new_color);
     });
-   
   });
