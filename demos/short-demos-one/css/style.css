@@ -1,0 +1,120 @@
+/* 4B, Don't forget the semi-colon! */
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://use.typekit.net/pzg6hru.css");
+/* local fonts */
+@font-face {
+    font-family: "toad";
+    src: url(../fonts/bangers-regular.ttf);
+}
+
+/*
+    TABLE OF CONTENTS
+    1. Video and Audio Styles
+    2. Side by Side Media and Text
+    3. Transitions 
+    4A,4B. Importing Fonts
+*/
+
+
+/* 1. Video and Audio styles */
+video {
+    width: 500px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px red;
+    border: 25px ridge pink;
+}
+
+/* 2. Side by Side Media and Text Styles */
+.img-contain img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.media-txt {
+    display: flex;
+    /* anything after can be consider optional */
+    gap: 25px;
+    align-items: center;
+}
+.img-contain {
+    flex: 1;
+    height: 350px;
+}
+.content {
+    flex: 1;
+}
+.content a {
+    display: inline-block;
+    border: 0.5px solid #005c75;
+    padding: 10px 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 12px #00c8ff,
+    inset 0px 0px 5px #00c8ff;
+    color: #005c75;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.content a:hover {
+    background-color: #005c75;
+    color: white;
+}
+
+/* 3. Transitions */
+.card {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 231, 196);
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 1s;
+}
+
+.card:hover {
+    background-color: #a2ebff;
+}
+
+.card a {
+    transition:
+    color 1s,
+    font-size 1s,
+    letter-spacing 1s;
+}
+
+.card:hover a {
+    color: black;
+    font-size: 2rem;
+    letter-spacing: 0.3em;
+}
+
+/* 4A Importing Fonts */
+.fonts {
+    margin: 150px auto;
+    width: 90%;
+    max-width: 500px;
+}
+
+.fonts h2 {
+    font-family: "Jacquarda Bastarda 9", serif;
+}
+.fonts h3 {
+    font-family: "Merriweather", serif;
+}
+
+/* Adobe sucks, so you have to type in the font-family yourself */
+.fonts #p1 {
+    font-family: 'Gandur-New', sans-serif;
+}
+.fonts #p2 {
+    font-family: 'Blenny', serif;
+}
+
+.fonts a {
+    font-family: 'toad', sans-serif;
+    font-size: 2rem;
+    color: rgb(208, 118, 0);
+}
