@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: pink;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-areas:
+        ". h1 h2"
+    ;
+    justify-content: space-between;
+}
+
+#h1 {
+    grid-area: h1;
+}
+#h2 {
+    grid-area: h2;
+}
