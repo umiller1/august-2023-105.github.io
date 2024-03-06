@@ -59,6 +59,14 @@ main {
   background-color: #22222255;
   backdrop-filter: blur(10px);
 }
+#contents p {
+  font-size: 18px;
+  color: #fefefeaa;
+}
+#contents p b {
+  font-size: 25px;
+  color: #fefefe;
+}
 
 h1, h3 {
   font-family: 'Bebas Neue', sans-serif;
